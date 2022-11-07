@@ -543,8 +543,8 @@ body.locked {
 }
 
 .header__info {
-  -ms-flex-preferred-size: 28%;
-      flex-basis: 28%;
+  -ms-flex-preferred-size: 470px;
+      flex-basis: 470px;
 }
 
 .header-blue {
@@ -1379,6 +1379,11 @@ a {
 
   .header {
     font-size: 0.75rem;
+  }
+
+  .header__info {
+    -ms-flex-preferred-size: 300px;
+        flex-basis: 300px;
   }
 
   .intro__logo img {
