@@ -1104,6 +1104,11 @@ a {
   display: block;
   height: 100vh;
   width: 100%;
+}
+
+.contacts__map img {
+  width: 100%;
+  height: 100vh;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
@@ -1306,6 +1311,10 @@ a {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+  }
+
+  .contacts__map img {
+    max-height: 460px;
   }
 
   .contacts__map {
@@ -1716,6 +1725,10 @@ a {
     max-width: 492px;
   }
 
+  .contacts__map img {
+    max-height: 365px;
+  }
+
   .contacts__map {
     max-width: 75%;
     max-height: 365px;
@@ -1862,6 +1875,10 @@ a {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     margin-bottom: 50px;
+  }
+
+  .contacts__map img {
+    max-height: 300px;
   }
 
   .contacts__map {
