@@ -1983,6 +1983,10 @@ a {
     margin-bottom: 35px;
   }
 
+  .calculator__t1-row {
+    max-width: 100%;
+  }
+
   .calculator__row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2009,11 +2013,16 @@ a {
     margin-top: 35px;
   }
 
+  .calculator__row .calculator__list {
+    margin-bottom: 0 !important;
+  }
+
   .calculator__item {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    -ms-grid-columns: auto auto;
+    grid-template-columns: auto auto;
+    margin-right: 0;
   }
 
   .calculator__list:not(:first-child) {
