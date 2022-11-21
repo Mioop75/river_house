@@ -1108,6 +1108,11 @@ a {
   position: relative;
 }
 
+.map__main:hover .calculator__map-popup {
+  opacity: 1;
+  pointer-events: all;
+}
+
 .map__row {
   display: -webkit-box;
   display: -ms-flexbox;
